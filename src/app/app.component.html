@@ -1,0 +1,18 @@
+<div class="signature-pad">
+  <div class="signature-pad-header">
+    <h1>Signature Pad</h1>
+  </div>
+  <div class="signature-pad-body">
+    <canvas #canvas width="900" height="400"></canvas>
+  </div>
+  <div class="signature-pad-controls">
+    <button (click)="clear()" class="signature-pad-control">Clear Singature</button>
+    <select [(ngModel)]="downloadFormat" class="signature-pad-control">
+      <option value="">Select Format</option>
+      <option value="jpeg">jpeg</option>
+      <option value="png">png</option>
+    </select>
+    <button (click)="save()" class="signature-pad-control">Download Singature</button>
+  </div>
+</div>
+

@@ -1,0 +1,14 @@
+canvas {
+  display: block;
+  box-shadow: 0 0 5px 1px #999;
+  margin:auto;
+}
+.signature-pad-header{
+  text-align: center;
+}
+.signature-pad-controls{
+  text-align: center;
+}
+.signature-pad-control{
+  margin: 2vw;
+}
